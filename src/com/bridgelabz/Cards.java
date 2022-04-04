@@ -17,6 +17,18 @@ public class Cards {
             System.out.println("Distributed cards: " + distributed_cards);
         }
         }
+    
+      public void player(){
+        Scanner sc=new Scanner(System.in);
+            System.out.println("Enter number of players\n");
+            int player= sc.nextInt();
+            if(player > 2 && player <=4 ){
+                System.out.println("Distribute the cards");
+            }else {
+                System.out.println("Players are more than 4");
+            }
+
+        }
     }
 
 

@@ -1,4 +1,5 @@
 package com.bridgelabz;
+import java.util.Scanner;
 
 public class Cards {
     String [] deck = new String[52];

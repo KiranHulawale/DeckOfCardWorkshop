@@ -30,6 +30,14 @@ public class Cards {
             }
 
         }
+    
+     public void sequence(){
+            int player=sc.nextInt();
+            for(int i = 1; i<player;i++)
+            {
+                System.out.println("Sequence is of card getting to players:"+i);
+            }
+        }
     }
 
 

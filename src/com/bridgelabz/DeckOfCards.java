@@ -6,6 +6,6 @@ public class DeckOfCards {
         Cards obj = new Cards();
         obj.display();
         obj.player();
-
+        obj.sequence();
     }
 }
